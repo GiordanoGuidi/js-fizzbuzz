@@ -1,0 +1,21 @@
+/*CSS RESET*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* UTILS */
+
+body{
+    background-color: #093B4C;
+}
+
+/* GENERICS */
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}

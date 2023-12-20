@@ -34,10 +34,10 @@ Buon lavoro e buon divertimento!
 
 1. Creo un ciclo che conti da 1 a 100
 2. Metto una variabile per i multipli di 3
-3. Aggiungo una stringa per vedere se funziona
+3. Stamo in console
 4. Metto una variabile per i multipli di 5
-5. Aggiungo una stringa per vedere se funziona
+5. Stampo in console
 6. Metto una variabile per i multipli di 3 e anche di 5
-7. Aggiungo una stringa per vedere se funziona
+7. Stampo in console
 
 
