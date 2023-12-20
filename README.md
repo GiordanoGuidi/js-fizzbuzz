@@ -27,3 +27,17 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 Buon lavoro e buon divertimento! 
+
+---
+
+# Scomposizione problema
+
+1. Creo un ciclo che conti da 1 a 100
+2. Metto una variabile per i multipli di 3
+3. Aggiungo una stringa per vedere se funziona
+4. Metto una variabile per i multipli di 5
+5. Aggiungo una stringa per vedere se funziona
+6. Metto una variabile per i multipli di 3 e anche di 5
+7. Aggiungo una stringa per vedere se funziona
+
+
