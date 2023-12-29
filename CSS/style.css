@@ -1,5 +1,4 @@
 /*CSS RESET*/
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,4 +17,12 @@ h1{
     color: white;
     text-align: center;
     font-size: 5rem;
+}
+
+li{
+    padding: 20px
+}
+
+li:hover{
+    scale: 1.2;
 }
