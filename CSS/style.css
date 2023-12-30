@@ -1,17 +1,28 @@
-/*CSS RESET*/
-* {
+/* CSS RESET */
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* UTILS */
+/* COLOR AND SIZE PALETTE */
 
-body{
-    background-color: #093B4C;
+:root{
+    --darkblue: #093B4C;
+    --lightblue: #1389b2;
+    --green: #0bd6a1;
+    --yellow: #ffd166;
+    --red: #f0466f;
+    --grid-size: 700px;
+    --cell-size: calc(var(--grid-size) / 10);
 }
 
-/* GENERICS */
+/* BODY */
+
+body{
+    background-color: var(--darkblue);
+    color: white;
+}
 
 h1{
     color: white;
@@ -19,10 +30,37 @@ h1{
     font-size: 5rem;
 }
 
-li{
-    padding: 20px
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--grid-size);
+    margin: 50px auto;
+    padding: 0;
+}
+
+ul li{
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background-color: var(--lightblue);
+    border: 5px solid var(--darkblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li:hover{
     scale: 1.2;
+}
+
+li.fizz{
+    background-color: var(--yellow);
+}
+
+li.buzz{
+    background-color: var(--green);
+}
+
+li.fizzbuzz{
+    background-color: var(--red);
 }

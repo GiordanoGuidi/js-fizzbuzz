@@ -1,21 +1,27 @@
 // RECUPERO L'ELEMENTO 
 const listElement = document.getElementById('list');
 console.log(listElement)
-
+let items = '';
 
 // Creo il ciclo di conteggio
 for( let i= 0 ; i < 100 ; i++){
-    let content = i
+    let content = (i +1);
+
     if((i+1) % 3 === 0 && (i+1) % 5 === 0){
-        listItems +=`<li class="bg-danger">Fizzbuzz</li>`;
+        content ='fizzbuzz';
     }
     else if((i+1) % 3 === 0){
-        listItems += `<li class="bg-warning">Fizz</li>`;
+        content = 'fizz';
     }
     else if((i+1) % 5 === 0 ){
-        listItems += `<li class="bg-success">Buzz</li>`;
+        content = 'buzz';
     }
-    else{
-        listItems += `<li class="bg-primary">${i + 1}</li>`;
-    }
+    // CREO GLI ITEMS CON CONTENUTO DEL CICLO FOR
+    items +=`<li>${content}</li>`;
 };
+
+listElement.innerHTML = items;
+
+
+
+
